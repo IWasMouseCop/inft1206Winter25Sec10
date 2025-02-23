@@ -12,7 +12,7 @@ div {
     text-align: center;
     font-size: 18px;
     background-color: rebeccapurple;
-    background: -moz-linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0.2)30%, rgba(0,0,0,0.2)100%);
+    background: linear-gradient(to bottom right, rgba(0,0,0,0), rgba(0,0,0,0.2)30%, rgba(0,0,0,0.2)100%) rebeccapurple;
     color: greenyellow;
     text-shadow: 1px 1px 1px black;
     
