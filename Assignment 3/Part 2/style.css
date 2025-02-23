@@ -3,11 +3,18 @@ html {
   }
   
   /* Your CSS below here */
-
+body{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div {
     width: 200px;
     height: 200px;
     border: 10px solid grey;
+    display: flex;
+    align-items: center;
     align-content: center;
     text-align: center;
     font-size: 18px;
@@ -18,5 +25,5 @@ div {
     box-shadow: 5px 5px 5px black
     inset 2px 2px 2px rgba(255, 255, 255, 0.2)
     inset 2px 2px 2px rgba(0,0,0,0.2);
-    
+
 }

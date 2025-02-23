@@ -43,7 +43,14 @@
   }
   
   /* WRITE YOUR CODE BELOW HERE */
-
+  @font-face {
+    font-family: TitleFont;
+    src: url('AtkinsonHyperlegibleMono-VariableFont_wght.ttf');
+  }
+  @font-face {
+    font-family: OtherFont;
+    src: url('PlayfairDisplay-VariableFont_wght.ttf');
+  }
   html {
     font-size: 10px;
   }
@@ -52,6 +59,7 @@
     text-align: center;
     font-size: 40px;
     letter-spacing: 3px;
+    font-family: TitleFont;
   }
 
   body {
@@ -63,3 +71,5 @@
   p {
     text-indent: 20px;
   }
+
+  
