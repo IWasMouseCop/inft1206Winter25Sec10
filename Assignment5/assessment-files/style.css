@@ -25,7 +25,7 @@ font[size="7"], font[size="6"], font[size="5"] {
 
 p, input, li, table, label {
   font-family: 'Open Sans Condensed', sans-serif;
-  color: #2a2a2a;
+  color: #000000;
 }
 
 font[size="7"] {
