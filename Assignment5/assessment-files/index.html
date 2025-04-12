@@ -57,9 +57,12 @@
 
         </p>
         <table>
-          <thead>
+          <caption>
+            A table with data showing data about different types of bears.
+          </caption>
+          <thead scope="col">
             <tr>
-              <td>Bear Type</td>
+              <th scope="row">Bear Type</th>
               <td>Coat</td>
               <td>Adult size</td>
               <td>Habitat</td>
@@ -69,7 +72,7 @@
           </thead>
           <tbody>
             <tr>
-              <td>Wild</td>
+              <th scope="row">Wild</th>
               <td>Brown or black</td>
               <td>1.4 to 2.8 meters</td>
               <td>Woods and forests</td>
@@ -77,7 +80,7 @@
               <td>Fish, meat, plants</td>
             </tr>
             <tr>
-              <td>Urban</td>
+              <th scope="row">Urban</th>
               <td>North Face</td>
               <td>18 to 22</td>
               <td>Condos and coffee shops</td>
@@ -90,10 +93,10 @@
         <h3>Habitats and Eating habits</h3>
           <p>
         Wild bears eat a variety of meat, fish, fruit, nuts, and other natually growing ingredients. In general they will hunt for food themselves in woodland or rivers, but at a push they will track down their sustenance from farms or country houses. They tend to live in relative isolation, in caves, tents, or cottages.
-        <img src="media/wild-bear.jpg">
+        <img src="media/wild-bear.jpg" alt="Picture of a wild bear">
         
         Urban (gentrified) bears on the other hand have largely abandoned the old ways. They will hunt other urban creatures if necessary (including other predators like rats and foxes), but prefer to scavenge from readily available urban food outlets like dumpsters, bins, and fast food joints. When food has proven scarce, urban bears have even been known to break into people's kitchens and steal essentials like baked beans, ready meals, and microwave ovens.
-        <img src="media/urban-bear.jpg">
+        <img src="media/urban-bear.jpg" alt="Picture of an urban bear">
 
         Urban bears will sleep anywhere they can, from bus shelters and parks, to the toilets in McDonalds, to their own apartment.
 
@@ -105,8 +108,8 @@
 
         </p>
         <audio controls>
-          <source src="media/bear.mp3" type="audio/mp3">
-          <source src="media/bear.ogg" type="audio/ogg">
+          <source src="media/bear.mp3" type="audio/mp3" alt="./media/bear.mp3">
+          <source src="media/bear.ogg" type="audio/ogg" alt="./media/bear.ogg">
           <p>It looks like your browser doesn't support HTML5 audio players.</p>
         </audio>
         <div class="controls">
@@ -115,6 +118,7 @@
           <button class="rwd">Rwd</button>
           <button class="fwd">Fwd</button>
           <div class="time">00:00</div>
+          <p>Transcript: This isn't really an audio fact file about bears, but it is, an audio file that you can transcribe</p>
         </div>
 
         <aside>
@@ -128,7 +132,7 @@
         </p>
         </aside>
         <section class="comments">
-          <div class="show-hide">Show comments</div>
+          <div class="show-hide" tabindex="0">Show comments</div>
 
           <div class="comment-wrapper">
 
